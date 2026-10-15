@@ -1,0 +1,13 @@
+{
+  "name": "track-recorder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "浏览器里的个人轨迹记录仪（骑行/开车），数据只存在本机。",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "test": "node tests/core.test.mjs && node tests/check-page.mjs",
+    "test:e2e": "node tests/e2e-browser.mjs",
+    "test:all": "npm test && npm run test:e2e"
+  }
+}
